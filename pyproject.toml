@@ -1,11 +1,13 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "sheetauto"
 version = "0.0.1"
 description = "A package to automate sheet operations"
+readme = "README.md"
+long_description_content_type = "text/markdown"  # Specify that the README is markdown
 authors = [
     { name = "Lingga Aji Andika", email = "linggaajiandika@gmail.com" },
 ]
@@ -17,3 +19,5 @@ dependencies = [
 
 [project.urls]
 "Source" = "https://github.com/linggaajiandika/sheetauto"
+
+[tool.setuptools]
