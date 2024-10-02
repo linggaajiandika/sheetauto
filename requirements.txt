@@ -1,5 +1,3 @@
-shutil
 pandas
 pywin32
 Pillow
-logging
