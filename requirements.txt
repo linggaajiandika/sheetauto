@@ -1,0 +1,6 @@
+os
+shutil
+pandas
+pywin32
+Pillow
+logging
